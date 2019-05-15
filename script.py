@@ -9,8 +9,9 @@ print("Connected")
 print("Logging in...")
 
 # heroku login
-# imapObj.login(environ.get('USERNAME_KEY'), environ.get('PASSWORD_KEY'))
+imapObj.login(environ.get('USERNAME_KEY'), environ.get('PASSWORD_KEY'))
 
 # local login
-imapObj.login(rconfig.address, rconfig.password)
+# imapObj.login(rconfig.address, rconfig.password)
+
 print("Logged in")
