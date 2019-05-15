@@ -1,5 +1,6 @@
 from os import environ  # for heroku
 import imapclient
+import sys
 # import rconfig  # for local tests
 
 print("Connecting...")
@@ -18,3 +19,4 @@ print("Logged in")
 
 imapObj.logout()
 print("Logged out")
+sys.exit(0)
