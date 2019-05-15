@@ -1,6 +1,6 @@
 from os import environ  # for heroku
 import imapclient
-import rconfig  # for local tests
+# import rconfig  # for local tests
 
 print("Connecting...")
 imapObj = imapclient.IMAPClient('imap.gmail.com', ssl=True)
