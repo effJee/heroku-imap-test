@@ -15,3 +15,6 @@ imapObj.login(environ.get('USERNAME_KEY'), environ.get('PASSWORD_KEY'))
 # imapObj.login(rconfig.address, rconfig.password)
 
 print("Logged in")
+
+imapObj.logout()
+print("Logged out")
